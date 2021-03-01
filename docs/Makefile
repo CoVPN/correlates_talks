@@ -1,2 +1,2 @@
-slides: code/20210301_talk.Rmd
-	Rscript -e "rmarkdown::render(here::here('code', '20210301_talk.Rmd'), output_file = here::here('index.html'))"
+slides: index.Rmd
+	Rscript -e "rmarkdown::render(here::here('index.Rmd'), output_file = here::here('index.html'))"

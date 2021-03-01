@@ -78,7 +78,7 @@ knitr::opts_chunk$set(
 ## [CoVPN GitHub repository](https://github.com/CoVPN)
 
 ```{r, pic-of-repo, out.width = "60%"}
-knitr::include_graphics(here::here("fig", "githubrepo.png"))
+knitr::include_graphics("fig/githubrepo.png")
 ```
 
 - `correlates_reporting` = .red[directory for analysis code]
@@ -90,7 +90,7 @@ knitr::include_graphics(here::here("fig", "githubrepo.png"))
 ## [correlates_reporting repository](https://github.com/CoVPN/correlates_reporting)
 
 ```{r, pic-of-correlates-repo, out.width = "80%"}
-knitr::include_graphics(here::here("fig", "reportingrepo.png"))
+knitr::include_graphics("fig/reportingrepo.png")
 ```
 
 ---
@@ -116,7 +116,7 @@ __Correlates of risk report (Tier 1A)__
 [build_instructions.md](https://github.com/CoVPN/correlates_reporting/blob/master/build_instructions.md)
 
 ```{r, build-instruct, out.width = "75%"}
-knitr::include_graphics(here::here("fig", "build_instructions.png"))
+knitr::include_graphics("fig/build_instructions.png")
 ```
 
 ---
